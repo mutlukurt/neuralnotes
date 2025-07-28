@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Notes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1 class="app-title">
+                    <i class="fas fa-brain"></i>
+                    Neural Notes
+                </h1>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search notes..." />
+                </div>
+            </div>
+
+            <!-- Notes Grid -->
+            <div class="notes-container">
+                <div class="notes-grid" id="notesGrid">
+                    <!-- Notes will be populated here -->
+                </div>
+                
+                <!-- Empty State -->
+                <div class="empty-state" id="emptyState">
+                    <i class="fas fa-sticky-note"></i>
+                    <h2>No notes yet</h2>
+                    <p>Create your first note to get started</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Note Editor Modal -->
+        <div class="modal-overlay" id="modalOverlay">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <input type="text" id="noteTitle" placeholder="Note title..." class="note-title-input" />
+                    <div class="modal-actions">
+                        <button class="btn-icon" id="deleteNote" title="Delete note">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                        <button class="btn-icon" id="closeModal" title="Close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="editor-container">
+                        <div class="editor-tabs">
+                            <button class="tab-btn active" data-tab="edit">
+                                <i class="fas fa-edit"></i> Edit
+                            </button>
+                            <button class="tab-btn" data-tab="preview">
+                                <i class="fas fa-eye"></i> Preview
+                            </button>
+                        </div>
+                        <div class="editor-content">
+                            <textarea id="noteContent" placeholder="Start writing your note in markdown..."></textarea>
+                            <div id="notePreview" class="note-preview"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="note-info">
+                        <span id="wordCount">0 words</span>
+                        <span id="lastModified">Not saved</span>
+                    </div>
+                    <button class="btn-primary" id="saveNote">
+                        <i class="fas fa-save"></i> Save Note
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Action Button -->
+        <button class="fab" id="newNoteBtn" title="Create new note">
+            <i class="fas fa-plus"></i>
+        </button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
