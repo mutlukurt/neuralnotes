@@ -34,7 +34,7 @@ After creating the remote repository, run the following commands in your termina
 
 ```bash
 # Add remote origin
-git remote add origin https://github.com/mutlukurt/neural-notes.git
+git remote add origin https://github.com/YOUR_USERNAME/neural-notes.git
 
 # Set the main branch (optional)
 git branch -M main
