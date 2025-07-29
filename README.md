@@ -4,35 +4,35 @@ A simple, elegant markdown-based note-taking app inspired by Obsidian. Built wit
 
 ## 🎯 Version 1.0 - Initial Release
 
-Bu ilk versiyonda, modern ve minimalist bir not alma uygulaması tamamen sıfırdan geliştirildi. Obsidian'dan ilham alınarak, kullanıcı dostu ve güçlü bir deneyim sunmak hedeflendi.
+In this first version, a modern and minimalist note-taking application was developed completely from scratch. Inspired by Obsidian, the goal was to provide a user-friendly and powerful experience.
 
-### 🚀 V1.0'da Geliştirilen Özellikler
+### 🚀 Features Developed in V1.0
 
-Bu ilk versiyonda aşağıdaki özellikler tamamen implement edildi:
+In this first version, the following features were fully implemented:
 
-**🏗️ Temel Mimari:**
-- Modern ES6+ JavaScript sınıf yapısı ile clean code architecture
-- CSS Grid ve Flexbox ile responsive design
-- Semantic HTML5 yapısı
-- LocalStorage ile client-side data persistence
+**🏗️ Core Architecture:**
+- Clean code architecture with modern ES6+ JavaScript class structure
+- Responsive design with CSS Grid and Flexbox
+- Semantic HTML5 structure
+- Client-side data persistence with LocalStorage
 
-**💻 Kullanıcı Arayüzü:**
-- Obsidian tarzı temiz ve minimal tasarım
-- Smooth animations ve micro-interactions
-- Light/Dark mode toggle sistemi
+**💻 User Interface:**
+- Clean and minimal Obsidian-style design
+- Smooth animations and micro-interactions
+- Light/Dark mode toggle system
 - Mobile-first responsive approach
 
-**📝 Not Yönetimi:**
-- Markdown parsing ve real-time preview
-- Internal linking sistemi ([[note name]] syntax)
-- Auto-save functionality (2 saniye debounce)
+**📝 Note Management:**
+- Markdown parsing and real-time preview
+- Internal linking system ([[note name]] syntax)
+- Auto-save functionality (2-second debounce)
 - CRUD operations (Create, Read, Update, Delete)
 
-**🔍 Arama ve Navigasyon:**
+**🔍 Search and Navigation:**
 - Real-time search functionality
-- Grid layout ile note cards
+- Note cards with grid layout
 - Smart timestamp formatting
-- Keyboard shortcuts desteği
+- Keyboard shortcuts support
 
 ## 🌟 Features
 

@@ -1,104 +1,104 @@
-# 🚀 GitHub'a Yükleme Rehberi
+# 🚀 GitHub Deployment Guide
 
-Bu rehber, Neural Notes projesini GitHub'da repository oluşturup yüklemek için adım adım talimatları içerir.
+This guide contains step-by-step instructions for creating a repository on GitHub and uploading the Neural Notes project.
 
-## 📋 Ön Hazırlık
+## 📋 Pre-Preparation
 
-✅ Git repository'si başlatıldı  
-✅ Tüm dosyalar commit edildi  
-✅ Proje yerel olarak hazır  
+✅ Git repository initialized  
+✅ All files committed  
+✅ Project ready locally  
 
-## 🌐 GitHub Repository Oluşturma
+## 🌐 Creating GitHub Repository
 
-### Adım 1: GitHub'da Yeni Repository Oluştur
+### Step 1: Create New Repository on GitHub
 
-1. **GitHub.com**'a git ve giriş yap
-2. Sağ üst köşedeki **"+"** butonuna tıkla
-3. **"New repository"** seç
+1. Go to **GitHub.com** and sign in
+2. Click the **"+"** button in the top right corner
+3. Select **"New repository"**
 
-### Adım 2: Repository Ayarları
+### Step 2: Repository Settings
 
-**Repository bilgileri:**
+**Repository information:**
 - **Repository name:** `neural-notes`
 - **Description:** `🧠 A simple, elegant markdown-based note-taking app inspired by Obsidian`
-- **Visibility:** Public (önerilen) veya Private
-- **Initialize repository:** ❌ **İşaretleme!** (zaten yerel repo var)
+- **Visibility:** Public (recommended) or Private
+- **Initialize repository:** ❌ **Don't check!** (local repo already exists)
 
-### Adım 3: Repository'yi Oluştur
+### Step 3: Create Repository
 
-"Create repository" butonuna tıkla.
+Click the "Create repository" button.
 
-## 📤 Kodu GitHub'a Yükle
+## 📤 Upload Code to GitHub
 
-GitHub repository'sini oluşturduktan sonra, terminalde şu komutları çalıştır:
+After creating the GitHub repository, run these commands in the terminal:
 
 ```bash
-# Remote repository'yi ekle
-git remote add origin https://github.com/KULLANICI_ADIN/neural-notes.git
+# Add remote repository
+git remote add origin https://github.com/USERNAME/neural-notes.git
 
-# Ana branch'i main olarak ayarla (opsiyonel)
+# Set main branch as primary (optional)
 git branch -M main
 
-# Kodu GitHub'a push et
+# Push code to GitHub
 git push -u origin main
 ```
 
-**Not:** `KULLANICI_ADIN` yerine kendi GitHub kullanıcı adınızı yazın.
+**Note:** Replace `USERNAME` with your own GitHub username.
 
-## 🔧 Alternatif: SSH ile Yükleme
+## 🔧 Alternative: Upload with SSH
 
-Eğer SSH key'iniz varsa:
+If you have SSH keys:
 
 ```bash
-git remote add origin git@github.com:KULLANICI_ADIN/neural-notes.git
+git remote add origin git@github.com:USERNAME/neural-notes.git
 git branch -M main
 git push -u origin main
 ```
 
-## 📱 GitHub Pages ile Deploy (Opsiyonel)
+## 📱 Deploy with GitHub Pages (Optional)
 
-Projeyi canlıya almak için GitHub Pages kullanabilirsiniz:
+You can use GitHub Pages to deploy your project live:
 
-1. Repository sayfasına git
-2. **Settings** tab'ına tıkla
-3. Sol menüden **Pages** seç
-4. **Source** kısmından **"Deploy from a branch"** seç
-5. **Branch** olarak **"main"** seç
-6. **Save** butonuna tıkla
+1. Go to the repository page
+2. Click the **Settings** tab
+3. Select **Pages** from the left menu
+4. Choose **"Deploy from a branch"** from the Source section
+5. Select **"main"** as the Branch
+6. Click the **Save** button
 
-Birkaç dakika sonra projeniz şu adreste yayında olacak:
-`https://KULLANICI_ADIN.github.io/neural-notes/`
+After a few minutes, your project will be live at:
+`https://USERNAME.github.io/neural-notes/`
 
-## 📊 Repository İstatistikleri
+## 📊 Repository Statistics
 
-İlk commit'te eklenen dosyalar:
-- `index.html` - Ana uygulama dosyası
-- `styles.css` - Tema ve responsive tasarım
-- `script.js` - Tüm JavaScript functionality
-- `README.md` - Proje dokümantasyonu
-- `.gitignore` - Git ignore kuralları
+Files added in the first commit:
+- `index.html` - Main application file
+- `styles.css` - Theme and responsive design
+- `script.js` - All JavaScript functionality
+- `README.md` - Project documentation
+- `.gitignore` - Git ignore rules
 
-**Toplam kod satırı:** ~1600+ satır  
-**Dosya sayısı:** 5 dosya  
-**Teknik stack:** Vanilla HTML, CSS, JavaScript  
+**Total lines of code:** ~1600+ lines  
+**Number of files:** 5 files  
+**Tech stack:** Vanilla HTML, CSS, JavaScript  
 
-## 🏷️ İlk Release Tag Oluşturma
+## 🏷️ Creating First Release Tag
 
-Release tag oluşturmak için:
+To create a release tag:
 
 ```bash
 git tag -a v1.0.0 -m "🎉 Neural Notes v1.0.0 - Initial Release"
 git push origin v1.0.0
 ```
 
-Sonra GitHub'da **Releases** seçeneğine gidip release notları ekleyebilirsiniz.
+Then you can go to **Releases** on GitHub and add release notes.
 
-## 🔗 Yararlı Linkler
+## 🔗 Useful Links
 
-- [GitHub CLI](https://cli.github.com/) - Gelecekte terminal'den repo oluşturmak için
-- [GitHub Pages](https://pages.github.com/) - Ücretsiz hosting
-- [Git Documentation](https://git-scm.com/doc) - Git komutları referansı
+- [GitHub CLI](https://cli.github.com/) - For creating repos from terminal in the future
+- [GitHub Pages](https://pages.github.com/) - Free hosting
+- [Git Documentation](https://git-scm.com/doc) - Git commands reference
 
 ---
 
-**Başarılar! 🎉 Projeniz GitHub'da yayında olacak!** 
+**Good luck! 🎉 Your project will be live on GitHub!** 
