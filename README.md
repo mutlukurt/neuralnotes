@@ -4,26 +4,35 @@ A simple, elegant markdown-based note-taking app inspired by Obsidian. Built wit
 
 ## 🎯 Version 1.0 - Initial Release
 
-A modern, minimalist note-taking app built from scratch. Inspired by Obsidian, designed for a user-friendly and powerful experience.
+A modern, minimalist note-taking application developed from scratch. Inspired by Obsidian, designed to provide a user-friendly and powerful experience.
 
-### 🚀 Features in V1.0
+### 🚀 Features Developed in V1.0
 
-- Modern ES6+ JavaScript class structure
+The following features were fully implemented in this first version:
+
+**🏗️ Core Architecture:**
+- Clean code architecture with modern ES6+ JavaScript class structure
 - Responsive design with CSS Grid and Flexbox
-- Semantic HTML5
-- LocalStorage for client-side data
-- Clean, minimal UI
+- Semantic HTML5 structure
+- Client-side data persistence with LocalStorage
+
+**💻 User Interface:**
+- Clean and minimal Obsidian-style design
 - Smooth animations and micro-interactions
-- Light/Dark mode toggle
-- Mobile-first design
-- Markdown parsing and live preview
-- Internal linking ([[note name]] syntax)
-- Auto-save (2-second debounce)
-- Full CRUD (Create, Read, Update, Delete)
-- Real-time search
-- Note cards in grid layout
+- Light/Dark mode toggle system
+- Mobile-first responsive approach
+
+**📝 Note Management:**
+- Markdown parsing and real-time preview
+- Internal linking system ([[note name]] syntax)
+- Auto-save functionality (2-second debounce)
+- CRUD operations (Create, Read, Update, Delete)
+
+**🔍 Search and Navigation:**
+- Real-time search functionality
+- Note cards with grid layout
 - Smart timestamp formatting
-- Keyboard shortcuts
+- Keyboard shortcuts support
 
 ## 🌟 Main Features
 
