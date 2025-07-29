@@ -6,7 +6,7 @@ This guide explains how to upload and deploy the Neural Notes project to GitHub.
 
 - Initialize a git repository
 - Commit all files
-- Make sure the project is ready locally
+- Ensure the project is ready locally
 
 ## 🌐 Create a GitHub Repository
 
@@ -49,7 +49,7 @@ git push -u origin main
 5. Select the `main` branch
 6. Click **Save**
 
-Your site will be live at:
+Your site will be live at:  
 `https://YOUR_USERNAME.github.io/neural-notes/`
 
 ## 📊 Repository Info

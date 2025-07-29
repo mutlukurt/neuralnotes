@@ -4,7 +4,7 @@ A simple, elegant markdown-based note-taking app inspired by Obsidian. Built wit
 
 ## 🎯 Version 1.0 - Initial Release
 
-A modern, minimalist note-taking app built from scratch. Inspired by Obsidian, it aims to provide a user-friendly and powerful experience.
+A modern, minimalist note-taking app built from scratch. Inspired by Obsidian, designed for a user-friendly and powerful experience.
 
 ### 🚀 Features in V1.0
 
