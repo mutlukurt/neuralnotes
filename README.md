@@ -1,181 +1,155 @@
 # Neural Notes
 
-A simple, elegant markdown-based note-taking app inspired by Obsidian. Built with vanilla HTML, CSS, and JavaScript - no frameworks required!
+A simple, elegant markdown-based note-taking app inspired by Obsidian. Built with vanilla HTML, CSS, and JavaScript.
 
 ## 🎯 Version 1.0 - Initial Release
 
-In this first version, a modern and minimalist note-taking application was developed completely from scratch. Inspired by Obsidian, the goal was to provide a user-friendly and powerful experience.
+A modern, minimalist note-taking app built from scratch. Inspired by Obsidian, it aims to provide a user-friendly and powerful experience.
 
-### 🚀 Features Developed in V1.0
+### 🚀 Features in V1.0
 
-In this first version, the following features were fully implemented:
-
-**🏗️ Core Architecture:**
-- Clean code architecture with modern ES6+ JavaScript class structure
+- Modern ES6+ JavaScript class structure
 - Responsive design with CSS Grid and Flexbox
-- Semantic HTML5 structure
-- Client-side data persistence with LocalStorage
-
-**💻 User Interface:**
-- Clean and minimal Obsidian-style design
+- Semantic HTML5
+- LocalStorage for client-side data
+- Clean, minimal UI
 - Smooth animations and micro-interactions
-- Light/Dark mode toggle system
-- Mobile-first responsive approach
-
-**📝 Note Management:**
-- Markdown parsing and real-time preview
-- Internal linking system ([[note name]] syntax)
-- Auto-save functionality (2-second debounce)
-- CRUD operations (Create, Read, Update, Delete)
-
-**🔍 Search and Navigation:**
-- Real-time search functionality
-- Note cards with grid layout
+- Light/Dark mode toggle
+- Mobile-first design
+- Markdown parsing and live preview
+- Internal linking ([[note name]] syntax)
+- Auto-save (2-second debounce)
+- Full CRUD (Create, Read, Update, Delete)
+- Real-time search
+- Note cards in grid layout
 - Smart timestamp formatting
-- Keyboard shortcuts support
+- Keyboard shortcuts
 
-## 🌟 Features
+## 🌟 Main Features
 
-### Core Functionality
-- ✍️ **Create, Edit, Delete Notes** - Full CRUD operations for your notes
-- 💾 **Local Storage** - All notes are saved in your browser's localStorage (no server needed)
-- 🔍 **Real-time Search** - Search through note titles and content instantly
-- 📝 **Markdown Support** - Write in markdown with live preview
-- 🔗 **Internal Linking** - Link between notes using `[[note name]]` syntax
-- 🌙 **Dark/Light Mode** - Toggle between themes with preference saving
-
-### User Experience
-- 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile
-- ⚡ **Auto-save** - Notes are automatically saved as you type (2-second delay)
-- 🎯 **Minimal Design** - Clean, distraction-free interface
-- ⌨️ **Keyboard Shortcuts** - Power user-friendly shortcuts
-- 📊 **Word Counter** - Live word count in the editor
-- 🕒 **Smart Timestamps** - Human-readable "Today", "Yesterday", "3 days ago" format
-
-### Advanced Features
-- 🔄 **Edit/Preview Tabs** - Switch between editing and preview modes
-- 🎨 **Modern UI** - Soft shadows, smooth animations, and hover effects
-- 📄 **Note Previews** - See a snippet of each note in the grid view
-- 🎯 **Floating Action Button** - Quick access to create new notes
-- 🔔 **Toast Notifications** - Feedback for save/delete actions
+- Create, edit, and delete notes
+- All notes saved in your browser (no server)
+- Instant search by title and content
+- Markdown support with live preview
+- Internal note linking
+- Dark/Light mode with preference saving
+- Fully responsive for desktop, tablet, and mobile
+- Auto-save as you type
+- Minimal, distraction-free interface
+- Keyboard shortcuts
+- Word counter
+- Human-readable timestamps
+- Edit/Preview tabs
+- Modern UI with smooth effects
+- Note previews in grid
+- Floating action button for new notes
+- Toast notifications for actions
 
 ## 🚀 Getting Started
 
-1. **Clone or Download** the project files:
-   - `index.html` - Main application structure
-   - `styles.css` - All styling and themes
-   - `script.js` - Complete functionality
+1. Download or clone the project files:
+   - `index.html` - Main app structure
+   - `styles.css` - All styles and themes
+   - `script.js` - App functionality
+2. Open `index.html` in your browser
+3. Click the + button to create your first note
 
-2. **Open `index.html`** in any modern web browser
-
-3. **Start Taking Notes!** Click the floating + button to create your first note
-
-## 📝 How to Use
+## 📝 Usage
 
 ### Creating Notes
-- Click the **floating + button** (bottom right) or press **Ctrl/Cmd + N**
-- Enter a title and start writing in markdown
-- Notes auto-save every 2 seconds while typing
-- Press **Ctrl/Cmd + S** to save manually
+- Click the + button or press Ctrl/Cmd + N
+- Enter a title and write in markdown
+- Notes auto-save every 2 seconds
+- Press Ctrl/Cmd + S to save manually
 
 ### Organizing Notes
-- All notes appear in a responsive grid layout
+- Notes appear in a responsive grid
 - Most recently modified notes appear first
-- Use the search bar to find specific notes
-- Click any note card to edit it
+- Use the search bar to find notes
+- Click a note card to edit
 
 ### Internal Linking
-- Link to other notes using `[[Note Title]]` syntax
-- Links appear highlighted in blue
-- Click a link to navigate to that note
-- If the linked note doesn't exist, clicking creates it automatically
+- Link to other notes with `[[Note Title]]`
+- Links are highlighted and clickable
+- Clicking a non-existent link creates a new note
 
 ### Markdown Support
-- **Headers**: `# H1`, `## H2`, `### H3`
-- **Bold**: `**bold text**`
-- **Italic**: `*italic text*`
-- **Code**: `` `inline code` `` or ``` code blocks ```
-- **Lists**: Use `-` or `1.` for bullet/numbered lists
-- **Blockquotes**: `> quoted text`
-- **Links**: `[text](url)`
+- Headers: `# H1`, `## H2`, `### H3`
+- Bold: `**bold text**`
+- Italic: `*italic text*`
+- Code: `` `inline code` `` or ``` code blocks ```
+- Lists: `-` or `1.`
+- Blockquotes: `> quoted text`
+- Links: `[text](url)`
 
 ### Themes
-- Click the **moon/sun icon** in the header to toggle themes
-- Your preference is automatically saved
-- Dark mode uses a beautiful slate color scheme
-- Light mode features clean whites and soft grays
+- Click the moon/sun icon to toggle theme
+- Preference is saved automatically
+- Dark mode: slate colors
+- Light mode: clean whites and grays
 
 ## ⌨️ Keyboard Shortcuts
 
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl/Cmd + N` | Create new note |
-| `Ctrl/Cmd + S` | Save current note |
-| `Ctrl/Cmd + K` | Focus search bar |
-| `Ctrl/Cmd + Shift + D` | Toggle dark/light mode |
-| `Escape` | Close note editor |
+| Shortcut              | Action                |
+|----------------------|-----------------------|
+| Ctrl/Cmd + N         | New note              |
+| Ctrl/Cmd + S         | Save note             |
+| Ctrl/Cmd + K         | Focus search bar      |
+| Ctrl/Cmd + Shift + D | Toggle dark/light     |
+| Escape               | Close note editor     |
 
 ## 📱 Responsive Design
 
-Neural Notes adapts perfectly to all screen sizes:
-
-- **Desktop (1200px+)**: Full-width layout with large note cards
-- **Tablet (768px-1199px)**: Responsive grid with medium-sized cards
-- **Mobile (480px-767px)**: Single-column layout with touch-friendly buttons
-- **Small Mobile (<480px)**: Optimized for the smallest screens
+- Desktop: Full-width layout, large cards
+- Tablet: Responsive grid, medium cards
+- Mobile: Single column, touch-friendly
+- Small mobile: Optimized for smallest screens
 
 ## 🛠️ Technical Details
 
-### Built With
-- **HTML5** - Semantic structure
-- **CSS3** - Modern styling with CSS Grid and Flexbox
-- **Vanilla JavaScript** - No frameworks or dependencies
-- **Marked.js** - Markdown parsing library (loaded from CDN)
-- **Font Awesome** - Icons (loaded from CDN)
-- **Inter Font** - Modern typography (loaded from Google Fonts)
+- HTML5, CSS3 (Grid, Flexbox)
+- Vanilla JavaScript
+- Marked.js for markdown parsing
+- Font Awesome for icons
+- Inter font from Google Fonts
 
 ### Browser Support
-- Chrome 88+
-- Firefox 85+
-- Safari 14+
-- Edge 90+
+- Chrome 88+, Firefox 85+, Safari 14+, Edge 90+
 
 ### Data Storage
-- All notes are stored in `localStorage`
+- All notes in `localStorage`
 - Storage key: `neuralNotes_notes`
 - Theme preference: `neuralNotes_theme`
-- No data is sent to any server
+- No data sent to any server
 
 ## 🎨 Customization
 
-The app uses CSS custom properties (variables) for easy theming. Key variables include:
-
+Uses CSS variables for easy theming. Example:
 ```css
 :root {
-  --accent-primary: #3b82f6;    /* Blue accent color */
-  --bg-primary: #ffffff;        /* Main background */
-  --text-primary: #1e293b;      /* Primary text */
-  /* ... and many more */
+  --accent-primary: #3b82f6;
+  --bg-primary: #fff;
+  --text-primary: #1e293b;
 }
 ```
 
 ## 🔒 Privacy & Security
 
-- **100% Local**: All data stays in your browser
-- **No Tracking**: No analytics or data collection
-- **No Network**: Works completely offline
-- **Your Data**: Only you have access to your notes
+- 100% local: all data stays in your browser
+- No tracking or analytics
+- Works offline
+- Only you can access your notes
 
 ## 🚧 Limitations
 
-- Storage is limited by browser's localStorage (typically ~5-10MB)
-- Notes are not synchronized across devices
-- No collaborative editing features
-- No note organization beyond search and chronological order
+- Storage limited by browser (~5-10MB)
+- No sync across devices
+- No collaboration
+- No advanced organization
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+MIT License
 
 ---
 
