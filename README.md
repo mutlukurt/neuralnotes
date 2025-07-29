@@ -1,182 +1,157 @@
 # Neural Notes
 
-A simple, elegant markdown-based note-taking app inspired by Obsidian. Built with vanilla HTML, CSS, and JavaScript - no frameworks required!
+A simple, elegant markdown-based note-taking app inspired by Obsidian. Built with vanilla HTML, CSS, and JavaScript – no frameworks required!
 
-## 🎯 Version 1.0 - Initial Release
+## 🎯 Version 1.0 – Initial Release
 
-Bu ilk versiyonda, modern ve minimalist bir not alma uygulaması tamamen sıfırdan geliştirildi. Obsidian'dan ilham alınarak, kullanıcı dostu ve güçlü bir deneyim sunmak hedeflendi.
+This first version was built completely from scratch as a modern, minimalist note-taking app. Inspired by Obsidian, the goal was to deliver a user-friendly yet powerful experience.
 
-### 🚀 V1.0'da Geliştirilen Özellikler
+### 🚀 Features Introduced in V1.0
 
-Bu ilk versiyonda aşağıdaki özellikler tamamen implement edildi:
+The following features were fully implemented in this initial version:
 
-**🏗️ Temel Mimari:**
-- Modern ES6+ JavaScript sınıf yapısı ile clean code architecture
-- CSS Grid ve Flexbox ile responsive design
-- Semantic HTML5 yapısı
-- LocalStorage ile client-side data persistence
+**🏗️ Core Architecture:**
+- Clean code architecture using modern ES6+ JavaScript classes
+- Responsive design with CSS Grid and Flexbox
+- Semantic HTML5 structure
+- Client-side data persistence via LocalStorage
 
-**💻 Kullanıcı Arayüzü:**
-- Obsidian tarzı temiz ve minimal tasarım
-- Smooth animations ve micro-interactions
-- Light/Dark mode toggle sistemi
+**💻 User Interface:**
+- Obsidian-style clean and minimal layout
+- Smooth animations and micro-interactions
+- Light/Dark mode toggle system
 - Mobile-first responsive approach
 
-**📝 Not Yönetimi:**
-- Markdown parsing ve real-time preview
-- Internal linking sistemi ([[note name]] syntax)
-- Auto-save functionality (2 saniye debounce)
-- CRUD operations (Create, Read, Update, Delete)
+**📝 Note Management:**
+- Markdown parsing with real-time preview
+- Internal linking system using `[[note name]]` syntax
+- Auto-save functionality with 2-second debounce
+- Full CRUD operations (Create, Read, Update, Delete)
 
-**🔍 Arama ve Navigasyon:**
+**🔍 Search and Navigation:**
 - Real-time search functionality
-- Grid layout ile note cards
+- Grid layout with note cards
 - Smart timestamp formatting
-- Keyboard shortcuts desteği
+- Keyboard shortcuts support
 
 ## 🌟 Features
 
 ### Core Functionality
-- ✍️ **Create, Edit, Delete Notes** - Full CRUD operations for your notes
-- 💾 **Local Storage** - All notes are saved in your browser's localStorage (no server needed)
-- 🔍 **Real-time Search** - Search through note titles and content instantly
-- 📝 **Markdown Support** - Write in markdown with live preview
-- 🔗 **Internal Linking** - Link between notes using `[[note name]]` syntax
-- 🌙 **Dark/Light Mode** - Toggle between themes with preference saving
+- ✍️ **Create, Edit, Delete Notes** – Full CRUD support
+- 💾 **Local Storage** – Notes are stored in your browser (no server required)
+- 🔍 **Real-time Search** – Instantly search notes by title or content
+- 📝 **Markdown Support** – Write using markdown with live preview
+- 🔗 **Internal Linking** – Use `[[note name]]` to link between notes
+- 🌙 **Dark/Light Mode** – Switch themes with saved preferences
 
 ### User Experience
-- 📱 **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile
-- ⚡ **Auto-save** - Notes are automatically saved as you type (2-second delay)
-- 🎯 **Minimal Design** - Clean, distraction-free interface
-- ⌨️ **Keyboard Shortcuts** - Power user-friendly shortcuts
-- 📊 **Word Counter** - Live word count in the editor
-- 🕒 **Smart Timestamps** - Human-readable "Today", "Yesterday", "3 days ago" format
+- 📱 **Fully Responsive** – Works great on all devices
+- ⚡ **Auto-save** – Notes are saved automatically (2s delay)
+- 🎯 **Minimal Design** – Clean and focused writing environment
+- ⌨️ **Keyboard Shortcuts** – Productivity-focused interaction
+- 📊 **Word Counter** – Live word count in the editor
+- 🕒 **Smart Timestamps** – “Today”, “Yesterday”, “3 days ago” display
 
 ### Advanced Features
-- 🔄 **Edit/Preview Tabs** - Switch between editing and preview modes
-- 🎨 **Modern UI** - Soft shadows, smooth animations, and hover effects
-- 📄 **Note Previews** - See a snippet of each note in the grid view
-- 🎯 **Floating Action Button** - Quick access to create new notes
-- 🔔 **Toast Notifications** - Feedback for save/delete actions
+- 🔄 **Edit/Preview Tabs** – Toggle between editor and preview mode
+- 🎨 **Modern UI** – Soft shadows, animations, hover effects
+- 📄 **Note Previews** – Grid view shows note snippets
+- 🎯 **Floating Action Button** – Quick access to create new notes
+- 🔔 **Toast Notifications** – Feedback for saving/deleting notes
 
 ## 🚀 Getting Started
 
 1. **Clone or Download** the project files:
-   - `index.html` - Main application structure
-   - `styles.css` - All styling and themes
-   - `script.js` - Complete functionality
+   - `index.html` – Main app structure
+   - `styles.css` – All theming and layout styles
+   - `script.js` – JavaScript functionality
 
-2. **Open `index.html`** in any modern web browser
+2. **Open `index.html`** in your preferred browser
 
-3. **Start Taking Notes!** Click the floating + button to create your first note
+3. **Start Taking Notes!** Use the + button to add your first note
 
 ## 📝 How to Use
 
 ### Creating Notes
-- Click the **floating + button** (bottom right) or press **Ctrl/Cmd + N**
-- Enter a title and start writing in markdown
-- Notes auto-save every 2 seconds while typing
-- Press **Ctrl/Cmd + S** to save manually
+- Click the **+ button** or press **Ctrl/Cmd + N**
+- Add a title and begin writing in markdown
+- Notes are auto-saved every 2 seconds
+- Use **Ctrl/Cmd + S** to save manually
 
 ### Organizing Notes
-- All notes appear in a responsive grid layout
-- Most recently modified notes appear first
-- Use the search bar to find specific notes
-- Click any note card to edit it
+- All notes are displayed in a responsive grid
+- Most recently updated notes appear first
+- Use the search bar to find any note
+- Click any note card to edit
 
 ### Internal Linking
-- Link to other notes using `[[Note Title]]` syntax
-- Links appear highlighted in blue
-- Click a link to navigate to that note
-- If the linked note doesn't exist, clicking creates it automatically
+- Use `[[Note Title]]` to link to another note
+- Links appear in blue
+- Click to navigate, or create if the note doesn’t exist
 
 ### Markdown Support
-- **Headers**: `# H1`, `## H2`, `### H3`
-- **Bold**: `**bold text**`
-- **Italic**: `*italic text*`
-- **Code**: `` `inline code` `` or ``` code blocks ```
-- **Lists**: Use `-` or `1.` for bullet/numbered lists
-- **Blockquotes**: `> quoted text`
+- **Headers**: `#`, `##`, `###`
+- **Bold**: `**bold**`
+- **Italic**: `*italic*`
+- **Code**: `` `inline` `` or ``` code blocks ```
+- **Lists**: `-` or `1.` for bullet/numbered
+- **Blockquotes**: `> quote`
 - **Links**: `[text](url)`
 
 ### Themes
-- Click the **moon/sun icon** in the header to toggle themes
-- Your preference is automatically saved
-- Dark mode uses a beautiful slate color scheme
-- Light mode features clean whites and soft grays
+- Use the **moon/sun icon** to toggle themes
+- Preference is saved to localStorage
+- Dark mode: sleek slate palette
+- Light mode: clean whites & soft grays
 
 ## ⌨️ Keyboard Shortcuts
 
-| Shortcut | Action |
-|----------|--------|
-| `Ctrl/Cmd + N` | Create new note |
-| `Ctrl/Cmd + S` | Save current note |
-| `Ctrl/Cmd + K` | Focus search bar |
-| `Ctrl/Cmd + Shift + D` | Toggle dark/light mode |
-| `Escape` | Close note editor |
+| Shortcut              | Action                      |
+|-----------------------|-----------------------------|
+| `Ctrl/Cmd + N`        | Create a new note           |
+| `Ctrl/Cmd + S`        | Save current note           |
+| `Ctrl/Cmd + K`        | Focus the search bar        |
+| `Ctrl/Cmd + Shift + D`| Toggle dark/light mode      |
+| `Escape`              | Close the note editor       |
 
 ## 📱 Responsive Design
 
-Neural Notes adapts perfectly to all screen sizes:
+Neural Notes is optimized for all screen sizes:
 
-- **Desktop (1200px+)**: Full-width layout with large note cards
-- **Tablet (768px-1199px)**: Responsive grid with medium-sized cards
-- **Mobile (480px-767px)**: Single-column layout with touch-friendly buttons
-- **Small Mobile (<480px)**: Optimized for the smallest screens
+- **Desktop (1200px+)** – Full-width layout with large cards
+- **Tablet (768–1199px)** – Medium card grid
+- **Mobile (480–767px)** – Single-column with touch support
+- **Small Mobile (<480px)** – Optimized for smallest screens
 
 ## 🛠️ Technical Details
 
 ### Built With
-- **HTML5** - Semantic structure
-- **CSS3** - Modern styling with CSS Grid and Flexbox
-- **Vanilla JavaScript** - No frameworks or dependencies
-- **Marked.js** - Markdown parsing library (loaded from CDN)
-- **Font Awesome** - Icons (loaded from CDN)
-- **Inter Font** - Modern typography (loaded from Google Fonts)
+- **HTML5** – Semantic and accessible markup
+- **CSS3** – Responsive design using Grid/Flexbox
+- **Vanilla JavaScript** – No frameworks or libraries
+- **Marked.js** – Markdown parser (CDN)
+- **Font Awesome** – Icons (CDN)
+- **Inter Font** – Google Fonts (CDN)
 
-### Browser Support
+### Browser Compatibility
 - Chrome 88+
 - Firefox 85+
 - Safari 14+
 - Edge 90+
 
 ### Data Storage
-- All notes are stored in `localStorage`
-- Storage key: `neuralNotes_notes`
-- Theme preference: `neuralNotes_theme`
-- No data is sent to any server
+- Notes: `localStorage` under `neuralNotes_notes`
+- Theme: stored in `neuralNotes_theme`
+- Works 100% client-side with no backend
 
 ## 🎨 Customization
 
-The app uses CSS custom properties (variables) for easy theming. Key variables include:
+CSS variables make customization easy. Example:
 
 ```css
 :root {
-  --accent-primary: #3b82f6;    /* Blue accent color */
-  --bg-primary: #ffffff;        /* Main background */
-  --text-primary: #1e293b;      /* Primary text */
-  /* ... and many more */
+  --accent-primary: #3b82f6;
+  --bg-primary: #ffffff;
+  --text-primary: #1e293b;
+  /* ...and more */
 }
-```
-
-## 🔒 Privacy & Security
-
-- **100% Local**: All data stays in your browser
-- **No Tracking**: No analytics or data collection
-- **No Network**: Works completely offline
-- **Your Data**: Only you have access to your notes
-
-## 🚧 Limitations
-
-- Storage is limited by browser's localStorage (typically ~5-10MB)
-- Notes are not synchronized across devices
-- No collaborative editing features
-- No note organization beyond search and chronological order
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
-**Happy Note Taking! 🧠✨** 
