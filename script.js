@@ -449,7 +449,7 @@ class NeuralNotes {
         } else if (diffDays <= 7) {
             return `${diffDays - 1} days ago`;
         } else {
-            return date.toLocaleDateString();
+            return date.toLocaleDateString('en-US');
         }
     }
 
